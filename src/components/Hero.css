@@ -4,6 +4,11 @@ body {
   font-family: "Poppins", sans-serif !important;
 }
 
+body .dark {
+    background-color: black;
+    color: #fff;
+}
+
 .headline {
   left: 130px;
 } 
