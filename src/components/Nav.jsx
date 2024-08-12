@@ -1,5 +1,7 @@
 import { BsToggleOn } from "react-icons/bs";
 import { BsToggleOff } from "react-icons/bs";
+import PropTypes from "prop-types";
+
 
 function Nav({dark, toggleDark}) {
   return (
@@ -15,5 +17,11 @@ function Nav({dark, toggleDark}) {
     </nav>
   );
 }
+
+Nav.propTypes = {
+  dark: PropTypes.bool.isRequired,
+  toggleDark: PropTypes.func.isRequired,
+};
+
 
 export default Nav;
