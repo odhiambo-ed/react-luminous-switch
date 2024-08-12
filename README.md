@@ -56,7 +56,7 @@ npm run dev
 
 Contributions, issues, and feature requests are welcome!!!
 
-Feel free to check the [issues page]https://github.com/odhiambo-ed/react-nested-menu/issues)
+Feel free to check the [issues page]https://github.com/odhiambo-ed/react-luminous-switch/issues)
 
 ## Show your support
 
