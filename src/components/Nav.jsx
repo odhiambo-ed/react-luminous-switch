@@ -1,13 +1,7 @@
-import { useState } from "react";
 import { BsToggleOn } from "react-icons/bs";
 import { BsToggleOff } from "react-icons/bs";
 
-function Nav() {
-    const [dark, setDark] = useState(false)
-
-    const toggleDark = () => {
-        setDark(!dark)
-    }
+function Nav({dark, toggleDark}) {
   return (
     <nav className="navbar bg-body-tertiary">
       <div className="container-fluid">
